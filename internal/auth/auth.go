@@ -20,5 +20,4 @@ func GetAPIKey(headers http.Header) (string, error) {
 	}
 
 	return splitAuth[0], nil
-	//return splitAuth[1], nil
 }
